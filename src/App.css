@@ -181,10 +181,10 @@
     list-style: none;
     background-color: #11101b;
     left: 0;
-    top: 70px;
+    top: 50px;
     transition: all 0.2s ease-out;
     z-index: 1;
-    width: 91%;
+    width: 92%;
   }
 
   .home,
