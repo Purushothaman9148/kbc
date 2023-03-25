@@ -1,38 +1,198 @@
-.App {
+/* Home Footer */
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #181818;
+  padding: 80px 50px;
+  flex-wrap: wrap;
+}
+
+.footer-address,
+.footer-terms,
+.footer-link {
+  width: 350px;
+  line-height: 2;
+  color: #b3adad;
+}
+
+.footer-header {
+  color: #eae9e9
+}
+
+.footer-terms>h3,
+.footer-link>h3 {
+  border-bottom: 2px solid #daa520;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-logo-header {
+  font-size: 22px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer-rights-container {
+  background-color: #414040;
+  color: #b3adad;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 20px;
+  flex-wrap: wrap;
+}
+
+.footer-rights-name {
+  color: #daa520;
+}
+
+
+/* Events */
+.news-event-container {
+  padding: 80px 50px;
+}
+
+.news-event-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.news-header {
+  color: #ed0303;
+  font-weight: 700;
+  align-items: flex-start;
+}
+
+.news-content-details {
+  display: flex;
+}
+
+.new-content-details-date {
+  padding-right: 10px;
+}
+
+.news-youtube {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive Iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.studnets-main-continer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 80px 50px;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #f0efef;
 }
 
-.App-link {
-  color: #61dafb;
+.stduent-box-container {
+  padding: 5px;
+  color: #fcf7f7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.navbar {
+  height: 100px;
+  background-color: #11101b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name {
+  font-size: 28px;
+  color: #fefefe;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.home,
+.about,
+.admission,
+.faculty,
+.contactus {
+  text-decoration: none;
+  color: #fefefe;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width:780px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 5px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #11101b;
+    left: 0;
+    top: 70px;
+    transition: all 0.2s ease-out;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .home,
+  .about,
+  .admission,
+  .faculty,
+  .contactus {
+    color: #fefefe;
+    text-align: center;
+    padding: 32px;
+    transition: all 0.5s ease;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 10px;
+    color: #fefefe;
+    background-color: #11101b;
+    border: none;
+    outline: none;
+    top: 40px;
+    right: 25px;
   }
 }
