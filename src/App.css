@@ -1,3 +1,53 @@
+/* Image slider */
+.image-slider {
+  position: relative;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image {
+  width: 80vw;
+  height: 450px;
+  border-radius: 0px;
+  width: fit-content
+}
+
+.left {
+  position: absolute;
+  left: 3rem;
+  top: 50%;
+  font-size: 1rem;
+  color: #ed0303;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+}
+
+.right {
+  position: absolute;
+  right: 3rem;
+  top: 50%;
+  font-size: 2rem;
+  color: #ed0303;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+}
+
+.currentSlide {
+  transition-duration: 0.5s ease;
+  opacity: 0;
+}
+
+.currentSlide.active {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+
 /* Home Footer */
 .footer-container {
   display: flex;
@@ -209,4 +259,10 @@
     top: 22px;
     right: 25px;
   }
+}
+
+/* Courses */
+.Courses-Container{
+  padding: 20px;
+  margin-top: 50px;
 }

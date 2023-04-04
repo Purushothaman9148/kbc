@@ -6,7 +6,7 @@ import About from './Menu/About';
 import Home from './Menu/Home';
 import Admission from './Menu/Admission';
 import ContactUs from './Menu/ContactUs';
-import Faculty from './Menu/Faculty';
+import Courses from './Menu/Courses';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         </Route>
         <Route path='/admission' element={<Admission />}>
         </Route>
-        <Route path='/faculty' element={<Faculty />}>
+        <Route path='/courses' element={<Courses />}>
         </Route>
         <Route path='/contactus' element={<ContactUs />}>
         </Route>

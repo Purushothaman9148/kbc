@@ -41,8 +41,8 @@ export default function Menu() {
                     <Link to="/admission" className="admission">
                         <li>Admission</li>
                     </Link>
-                    <Link to="/faculty" className="faculty">
-                        <li>Faculty</li>
+                    <Link to="/courses" className="faculty">
+                        <li>Courses</li>
                     </Link>
                     <Link to="/contactus" className="contactus">
                         <li>Contact Us</li>

@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Admission() {
     return (
-        <div>Admission</div>
+        <div>
+            <h3>Page is under construction...</h3>
+        </div>
     )
 }
