@@ -1,9 +1,9 @@
 /* Image slider */
-.image-slider {
+/* .image-slider {
   position: relative;
   height: 550px;
   display: flex;
-  justify-content: center;
+  justify-content: stretch;
   align-items: center;
   
 }
@@ -12,7 +12,8 @@
   width: 80vw;
   height: 450px;
   border-radius: 0px;
-  width: fit-content
+  width: fit-content;
+ 
 }
 
 .left {
@@ -46,7 +47,7 @@
   opacity: 1;
   transition-duration: 0.5s;
   transform: scale(1.2);
-}
+} */
 
 /* Home Footer */
 .footer-container {
@@ -217,9 +218,6 @@
     font-size: 18px;
   }
 
-  .navbar{
-    height: 70px;
-  }
 
   .nav-links {
     display: none;
@@ -265,4 +263,38 @@
 .Courses-Container{
   padding: 20px;
   margin-top: 50px;
+  letter-spacing:30vmax;
+}
+
+.aboutUsContainer{
+  padding: 20px;
+    margin-top: 50px;
+}
+
+.aboutUsHeader{
+  font-weight: 600;
+}
+
+.aboutUsContent{
+  margin-top: 10px;
+  display: flex;
+  padding: 20px;
+
+}
+
+.aboutTextContent{
+  width: 50%;
+    justify-content: left;
+      align-items: center;
+}
+
+.photoContent{
+  width: 50%;
+    justify-content: center;
+      align-items: center;
+}
+
+.ttJoseph{
+  height: 400px;
+  padding: 50px;
 }

@@ -10,9 +10,9 @@ export default function StudentsTestmony() {
                     sx={{
                         width: 400,
                         height: 350,
-                        backgroundColor: 'primary.main',
+                        backgroundColor: 'gold',
                         '&:hover': {
-                            backgroundColor: 'primary.main',
+                            backgroundColor: 'gold',
                             opacity: [0.9, 0.8, 0.7]
 
                         },
@@ -30,9 +30,9 @@ export default function StudentsTestmony() {
                     sx={{
                         width: 400,
                         height: 350,
-                        backgroundColor: 'primary.dark',
+                        backgroundColor: 'red',
                         '&:hover': {
-                            backgroundColor: 'primary.main',
+                            backgroundColor: 'maroon',
                             opacity: [0.9, 0.8, 0.7],
                         },
                     }}
@@ -48,9 +48,9 @@ export default function StudentsTestmony() {
                     sx={{
                         width: 400,
                         height: 350,
-                        backgroundColor: 'primary.dark',
+                        backgroundColor: 'gold',
                         '&:hover': {
-                            backgroundColor: 'primary.main',
+                            backgroundColor: 'gold',
                             opacity: [0.9, 0.8, 0.7],
                         },
                     }}
