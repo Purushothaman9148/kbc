@@ -260,41 +260,104 @@
 }
 
 /* Courses */
-.Courses-Container{
+.Courses-Container {
+  padding: 20px;
+  margin-top: 10px;
+  letter-spacing: 30vmax;
+  padding-bottom: 50px;
+}
+.othercourseheader{
+  margin-left: 20px;
+}
+
+.aboutUsContainer {
   padding: 20px;
   margin-top: 50px;
-  letter-spacing:30vmax;
 }
 
-.aboutUsContainer{
-  padding: 20px;
-    margin-top: 50px;
-}
-
-.aboutUsHeader{
+.aboutUsHeader {
   font-weight: 600;
 }
 
-.aboutUsContent{
+.aboutUsContent {
   margin-top: 10px;
   display: flex;
   padding: 20px;
 
 }
 
-.aboutTextContent{
+.aboutTextContent {
   width: 50%;
-    justify-content: left;
-      align-items: center;
+  justify-content: left;
+  align-items: center;
 }
 
-.photoContent{
+.photoContent {
   width: 50%;
-    justify-content: center;
-      align-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-.ttJoseph{
+.ttJoseph {
   height: 400px;
   padding: 50px;
+  margin-left: 50px;
+}
+
+.imageSliderText {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.vissionheader{
+  padding: 10px;
+  font-style:italic;
+}
+
+.vision{
+  margin-top: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+.contact-content{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.map{
+  width: 50%;
+}
+
+.address{
+  width: 50%;
+  text-align: left;
+  margin-left: 200px;
+}
+
+.addresstext{
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.coursetable{
+  padding: 20px;
+}
+
+.cousetabletag{
+  margin-top: 10px;
+}
+
+.courseHeader{
+  margin-top: 50px;
 }

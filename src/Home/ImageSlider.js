@@ -51,6 +51,9 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Bannergroup from '../Assets/images/Bannergroup.JPG'
 import Banner_2 from '../Assets/images/Banner_2.jpg'
+import Banner3 from '../Assets/images/Banner3.JPG'
+import CollegeBanner1 from '../Assets/images/CollegeBanner1.JPG'
+import CollegeBanner2 from '../Assets/images/CollegeBanner2.JPG'
 
 function ImageSlider() {
     return (
@@ -58,36 +61,42 @@ function ImageSlider() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={Bannergroup}
+                    src={CollegeBanner1}
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <div className='imageSliderText'>
+                        <h4>Make Disciples</h4>
+                        <p>KBC has played a vital role in the evangelization of our nation.</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={Banner_2}
+                    src={CollegeBanner2}
                     alt="Second slide"
                 />
                 <Carousel.Caption>
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div className='imageSliderText'>
+                        {/* <h5>Second slide label</h5> */}
+                        <p>We Develop the future Christian leaders.</p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={Banner_2}
+                    src={Banner3}
                     alt="Third slide"
                 />
                 <Carousel.Caption>
-                    <h5>Third slide label</h5>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <div className='imageSliderText'>
+                        {/* <h5>Third slide label</h5> */}
+                        <p>
+                            God uses men who are weak and feeble enough to lean on Him.
+                        </p>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

@@ -37,19 +37,20 @@ export default function NewsEvents() {
                             <ListItem>
                                 <ListItemAvatar>
                                     <Avatar>
-                                        <SchoolIcon />
+                                        <MenuBookIcon />
                                     </Avatar>
                                 </ListItemAvatar>
-                                <ListItemText primary="IPC Karnataka Bible College 29th Graduation service" secondary="Apr 6, 2023" />
+                                <ListItemText primary="New Admission Started for the " secondary="2023 - 2024" />
                             </ListItem>
                             <ListItem>
                                 <ListItemAvatar>
                                     <Avatar>
-                                        <MenuBookIcon />
+                                        <SchoolIcon />
                                     </Avatar>
                                 </ListItemAvatar>
-                                <ListItemText primary="New Admission" secondary="2023 - 2024" />
+                                <ListItemText primary="Classes starting from 2nd Week of June" secondary="2023 - 2024" />
                             </ListItem>
+
                         </List>
                     </div>
                 </div>
