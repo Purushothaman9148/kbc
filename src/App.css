@@ -231,7 +231,7 @@
     left: 0;
     top: 50px;
     transition: all 0.2s ease-out;
-    z-index: 1;
+    z-index: 3;
     width: 92%;
   }
 
@@ -270,51 +270,7 @@
   margin-left: 20px;
 }
 
-.aboutUsContainer {
-  padding: 20px;
-  margin-top: 50px;
-}
 
-.aboutUsHeader {
-  font-weight: 600;
-}
-
-.aboutUsContent {
-  margin-top: 10px;
-  display: flex;
-  padding: 20px;
-
-}
-
-.aboutTextContent {
-  width: 50%;
-  justify-content: left;
-  align-items: center;
-}
-
-.photoContent {
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-.ttJoseph {
-  height: 400px;
-  padding: 50px;
-  margin-left: 50px;
-}
-
-.imageSliderText {
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
-  font-weight: bold;
-  z-index: 2;
-  padding: 20px;
-  text-align: center;
-  font-size: 24px;
-}
 
 .vissionheader{
   padding: 10px;
@@ -361,3 +317,83 @@
 .courseHeader{
   margin-top: 50px;
 }
+
+/* About us */
+
+.aboutUsContainer {
+  padding: 50px 50px;
+  /* margin-top: 50px; */
+}
+
+.aboutuscontenttext{
+      margin: 0;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        font-size: 0.975rem;
+        line-height: 2;
+        letter-spacing: 0.01071em;
+        color: rgba(0, 0, 0, 0.6);
+        display: block;
+}
+
+
+
+.aboutUsHeader {
+  font-weight: 420;
+  background-color: #3a4a46;
+  color:#fcf7f7;
+  width:fit-content;
+  padding: 8px 20px 8px 8px;
+  border-right: 10px solid transparent;
+}
+
+.aboutUsContent {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 50px 50px;
+  border-radius: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.aboutTextContent {
+  width: 50%;
+  justify-content: left;
+  align-items: center;
+}
+
+.photoContent {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ttJoseph {
+  height: 420px;
+  padding: 50px;
+  filter: drop-shadow(0 0 0.75rem rgb(77, 73, 73));
+  /* margin-left: 50px; */
+}
+
+.imageSliderText {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.photoImgContent{
+  
+  /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+}
+
+
+

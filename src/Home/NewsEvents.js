@@ -10,9 +10,13 @@ import { height } from '@mui/system';
 import Iframe from 'react-iframe'
 
 export default function NewsEvents() {
-    const containerHeight = {
-        height: '420px',
-        width: '800px',
+
+    const iconColor = {
+        color: '#ffffff',
+    }
+
+    const eventBackgroundColor = {
+        backgroundColor: '#181818'
     }
     return (
         <>
@@ -36,21 +40,20 @@ export default function NewsEvents() {
                         <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                             <ListItem>
                                 <ListItemAvatar>
-                                    <Avatar>
-                                        <MenuBookIcon />
+                                    <Avatar style={eventBackgroundColor}>
+                                        <MenuBookIcon style={iconColor} />
                                     </Avatar>
                                 </ListItemAvatar>
-                                <ListItemText primary="New Admission Started for the " secondary="2023 - 2024" />
+                                <ListItemText primary="Admission" secondary=" New admission started for the year 2023 - 2024" />
                             </ListItem>
                             <ListItem>
                                 <ListItemAvatar>
-                                    <Avatar>
-                                        <SchoolIcon />
+                                    <Avatar style={eventBackgroundColor}>
+                                        <SchoolIcon style={iconColor} />
                                     </Avatar>
                                 </ListItemAvatar>
-                                <ListItemText primary="Classes starting from 2nd Week of June" secondary="2023 - 2024" />
+                                <ListItemText primary="Classes" secondary="Starting from 2nd week of June 2023" />
                             </ListItem>
-
                         </List>
                     </div>
                 </div>

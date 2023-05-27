@@ -44,6 +44,7 @@ const rows = [
 export default function Courses() {
     return (
         <>
+
             <div className='coursetable'>
                 <div>
                     <h4 className='courseHeader'>Dip.Th (Diploma in Thelogical)</h4>
