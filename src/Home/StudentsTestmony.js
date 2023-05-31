@@ -20,8 +20,7 @@ export default function StudentsTestmony() {
                 >
                     <h4 className='vissionheader'>Vision</h4>
                     <p className='vision'>
-                        Our Vision is to equip, mould and train the young disciples for servant leadership
-                        and encourage them to work in the mission field of Karnataka.
+                        The Vision of the KBC as to train men and women of God to the unreached in the south india and plant churches in Taluk/Village level.
                     </p>
                 </Box>
                 <Box className='stduent-box-container'
@@ -37,7 +36,7 @@ export default function StudentsTestmony() {
                 >
                     <h4 className='vissionheader'>Mission</h4>
                     <p className='vision'>
-                        We have taken students to witness the Lord.
+                        The Mission of the KBC is to teach the Word of God and train dedicated Christian Workers to preach the Gospel effectively and make disciples.
                     </p>
                 </Box>
                 <Box className='stduent-box-container'

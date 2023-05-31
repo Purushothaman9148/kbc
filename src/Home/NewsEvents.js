@@ -23,7 +23,7 @@ export default function NewsEvents() {
             <div className='news-event-container'>
                 <div className='news-event-content'>
                     <div className='news-update'>
-                        <h2 className='news-header'>News & Updates</h2>
+                        <h4 className='news-header'>News & Updates</h4>
                         <div className='news-youtube'  >
                             <Iframe height='315' width='420' src="https://www.youtube-nocookie.com/embed/fwqpmcGEh4A?start=70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></Iframe>
                         </div>
@@ -36,7 +36,7 @@ export default function NewsEvents() {
                         </div>
                     </div>
                     <div className='upcoming-events'>
-                        <h2 className='news-header'>Upcoming Events</h2>
+                        <h4 className='news-header'>Upcoming Events</h4>
                         <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                             <ListItem>
                                 <ListItemAvatar>

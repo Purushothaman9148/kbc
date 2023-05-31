@@ -395,5 +395,23 @@
     align-content: center; */
 }
 
+.studnets-main-continers {
+  display: flex;
+  justify-content:space-evenly;
+  padding: 50px 50px;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #f0efef;
+  gap: 20px;
+}
+.studnets-main-content
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #f0efef;
+    color: #f40c0c;
+  }
 
 
