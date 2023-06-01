@@ -52,7 +52,7 @@ export default function StudentsTestmony() {
                 >
                     <h4 className='vissionheader'>Passion</h4>
                     <p className='vision'>
-                        Karnataka Bible College provices students with various streams
+                        Karnataka Bible College provise students with various streams
                         to pursue their theological education. Programs accredited by
                         Asian Thelogical Association (ATA).
                     </p>
